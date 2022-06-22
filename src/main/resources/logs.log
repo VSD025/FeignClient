@@ -1,0 +1,88 @@
+2022-06-22 10:45:23 INFO  LibraryFeignClientApplication:55 - Starting LibraryFeignClientApplication using Java 11.0.15 on LAPTOP-BJFSL944 with PID 552 (C:\Users\vsevo\IdeaProjects\LibraryFeignClient\target\classes started by vsevo in C:\Users\vsevo\IdeaProjects\LibraryFeignClient)
+2022-06-22 10:45:23 INFO  LibraryFeignClientApplication:634 - No active profile set, falling back to 1 default profile: "default"
+2022-06-22 10:45:23 INFO  GenericScope:283 - BeanFactory id=8e113c02-3e55-36c1-8005-9bc7a84113f9
+2022-06-22 10:45:23 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 9000 (http)
+2022-06-22 10:45:23 INFO  ServletWebServerApplicationContext:292 - Root WebApplicationContext: initialization completed in 722 ms
+2022-06-22 10:45:24 INFO  TomcatWebServer:220 - Tomcat started on port(s): 9000 (http) with context path ''
+2022-06-22 10:45:24 INFO  LibraryFeignClientApplication:61 - Started LibraryFeignClientApplication in 1.854 seconds (JVM running for 2.462)
+2022-06-22 10:45:41 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-06-22 10:45:41 INFO  DispatcherServlet:547 - Completed initialization in 0 ms
+2022-06-22 10:45:41 INFO  AuthorController:28 - Get author: id: 6, name: War and Peace, surname: 2 
+2022-06-22 10:45:42 INFO  AuthorController:28 - Get author: id: 6, name: War and Peace, surname: 2 
+2022-06-22 10:45:43 INFO  AuthorController:34 - Get all clients
+2022-06-22 10:48:16 INFO  LibraryFeignClientApplication:55 - Starting LibraryFeignClientApplication using Java 11.0.15 on LAPTOP-BJFSL944 with PID 17388 (C:\Users\vsevo\IdeaProjects\LibraryFeignClient\target\classes started by vsevo in C:\Users\vsevo\IdeaProjects\LibraryFeignClient)
+2022-06-22 10:48:16 INFO  LibraryFeignClientApplication:634 - No active profile set, falling back to 1 default profile: "default"
+2022-06-22 10:48:16 INFO  GenericScope:283 - BeanFactory id=8e113c02-3e55-36c1-8005-9bc7a84113f9
+2022-06-22 10:48:16 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 9000 (http)
+2022-06-22 10:48:16 INFO  ServletWebServerApplicationContext:292 - Root WebApplicationContext: initialization completed in 696 ms
+2022-06-22 10:48:17 INFO  TomcatWebServer:220 - Tomcat started on port(s): 9000 (http) with context path ''
+2022-06-22 10:48:17 INFO  LibraryFeignClientApplication:61 - Started LibraryFeignClientApplication in 1.787 seconds (JVM running for 2.378)
+2022-06-22 10:48:29 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-06-22 10:48:29 INFO  DispatcherServlet:547 - Completed initialization in 1 ms
+2022-06-22 10:48:29 INFO  AuthorController:34 - Get all authors
+2022-06-22 10:48:33 INFO  AuthorController:28 - Get author: id: 1, name: War and Peace, surname: 2 
+2022-06-22 10:52:07 INFO  LibraryFeignClientApplication:55 - Starting LibraryFeignClientApplication using Java 11.0.15 on LAPTOP-BJFSL944 with PID 21528 (C:\Users\vsevo\IdeaProjects\LibraryFeignClient\target\classes started by vsevo in C:\Users\vsevo\IdeaProjects\LibraryFeignClient)
+2022-06-22 10:52:07 INFO  LibraryFeignClientApplication:634 - No active profile set, falling back to 1 default profile: "default"
+2022-06-22 10:52:08 INFO  GenericScope:283 - BeanFactory id=8e113c02-3e55-36c1-8005-9bc7a84113f9
+2022-06-22 10:52:08 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 9000 (http)
+2022-06-22 10:52:08 INFO  ServletWebServerApplicationContext:292 - Root WebApplicationContext: initialization completed in 696 ms
+2022-06-22 10:52:08 INFO  TomcatWebServer:220 - Tomcat started on port(s): 9000 (http) with context path ''
+2022-06-22 10:52:08 INFO  LibraryFeignClientApplication:61 - Started LibraryFeignClientApplication in 1.8 seconds (JVM running for 2.429)
+2022-06-22 10:52:22 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-06-22 10:52:22 INFO  DispatcherServlet:547 - Completed initialization in 0 ms
+2022-06-22 10:52:49 INFO  AuthorController:28 - Get author: id: 1, name: Sergey, surname: Minaev 
+2022-06-22 12:50:41 INFO  LibraryFeignClientApplication:55 - Starting LibraryFeignClientApplication using Java 11.0.15 on LAPTOP-BJFSL944 with PID 13296 (C:\Users\vsevo\IdeaProjects\LibraryFeignClient\target\classes started by vsevo in C:\Users\vsevo\IdeaProjects\LibraryFeignClient)
+2022-06-22 12:50:41 INFO  LibraryFeignClientApplication:634 - No active profile set, falling back to 1 default profile: "default"
+2022-06-22 12:50:41 WARN  AnnotationConfigServletWebServerApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name '${feign.library.name}.FeignClientSpecification' defined in null: Cannot register bean definition [Generic bean: class [org.springframework.cloud.openfeign.FeignClientSpecification]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] for bean '${feign.library.name}.FeignClientSpecification': There is already [Generic bean: class [org.springframework.cloud.openfeign.FeignClientSpecification]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+2022-06-22 12:50:41 INFO  ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-22 12:50:41 ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean '${feign.library.name}.FeignClientSpecification' could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2022-06-22 12:50:51 INFO  LibraryFeignClientApplication:55 - Starting LibraryFeignClientApplication using Java 11.0.15 on LAPTOP-BJFSL944 with PID 18412 (C:\Users\vsevo\IdeaProjects\LibraryFeignClient\target\classes started by vsevo in C:\Users\vsevo\IdeaProjects\LibraryFeignClient)
+2022-06-22 12:50:51 INFO  LibraryFeignClientApplication:634 - No active profile set, falling back to 1 default profile: "default"
+2022-06-22 12:50:51 WARN  AnnotationConfigServletWebServerApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name '${feign.library.name}.FeignClientSpecification' defined in null: Cannot register bean definition [Generic bean: class [org.springframework.cloud.openfeign.FeignClientSpecification]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] for bean '${feign.library.name}.FeignClientSpecification': There is already [Generic bean: class [org.springframework.cloud.openfeign.FeignClientSpecification]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+2022-06-22 12:50:51 INFO  ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-22 12:50:51 ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean '${feign.library.name}.FeignClientSpecification' could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2022-06-22 12:52:58 INFO  LibraryFeignClientApplication:55 - Starting LibraryFeignClientApplication using Java 11.0.15 on LAPTOP-BJFSL944 with PID 1656 (C:\Users\vsevo\IdeaProjects\LibraryFeignClient\target\classes started by vsevo in C:\Users\vsevo\IdeaProjects\LibraryFeignClient)
+2022-06-22 12:52:58 INFO  LibraryFeignClientApplication:634 - No active profile set, falling back to 1 default profile: "default"
+2022-06-22 12:52:58 INFO  GenericScope:283 - BeanFactory id=0c418693-8903-3a55-b5a2-8f95e112d34e
+2022-06-22 12:52:58 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 9000 (http)
+2022-06-22 12:52:58 INFO  ServletWebServerApplicationContext:292 - Root WebApplicationContext: initialization completed in 706 ms
+2022-06-22 12:52:59 INFO  TomcatWebServer:220 - Tomcat started on port(s): 9000 (http) with context path ''
+2022-06-22 12:52:59 INFO  LibraryFeignClientApplication:61 - Started LibraryFeignClientApplication in 1.779 seconds (JVM running for 2.38)
+2022-06-22 12:53:15 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-06-22 12:53:15 INFO  DispatcherServlet:547 - Completed initialization in 0 ms
+2022-06-22 12:53:15 INFO  AuthorController:28 - Get author: id: 1, name: Sergey, surname: Minaev 
+2022-06-22 12:53:17 INFO  AuthorController:28 - Get author: id: 1, name: Sergey, surname: Minaev 
+2022-06-22 12:53:18 INFO  AuthorController:28 - Get author: id: 2, name: Sergey, surname: Minaev 
+2022-06-22 12:53:22 INFO  AuthorController:34 - Get all authors
+2022-06-22 12:54:01 INFO  BookController:29 - Get book: id: 1, title: Book1, author_id: 5 
+2022-06-22 12:54:05 INFO  BookController:35 - Get all books
