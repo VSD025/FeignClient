@@ -15,6 +15,6 @@ public class DefaultFeignAuthorClient implements feignAuthorClient{
 
     @Override
     public List<AuthorResource> getAllAuthors() {
-        return new ArrayList<AuthorResource>();
+        return new ArrayList<>();
     }
 }
