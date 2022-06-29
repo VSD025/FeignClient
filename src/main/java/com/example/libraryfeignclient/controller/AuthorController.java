@@ -1,13 +1,11 @@
-package com.example.client.controller;
+package com.example.libraryfeignclient.controller;
 
-import com.example.client.feign.feignClient;
-import com.example.client.resource.AuthorResource;
-import com.example.client.resource.Response;
+import com.example.libraryfeignclient.feign.feignAuthorClient;
+import com.example.libraryfeignclient.resource.AuthorResource;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,8 +19,8 @@ import java.util.List;
 @Getter
 @Setter
 @Slf4j
-public class FeignLibraryController {
-    private feignClient client;
+public class AuthorController {
+    private feignAuthorClient client;
 
     @GetMapping(path = "/author/{id}")
     AuthorResource getAuthor(@PathVariable Long id){
@@ -32,5 +30,7 @@ public class FeignLibraryController {
     }
 
     @GetMapping(path = "/authors")
-    List<AuthorResource> getAllAuthors(){return client.getAllAuthors();}
+    List<AuthorResource> getAllAuthors(){
+        log.info("Get all authors");
+        return client.getAllAuthors();}
 }

@@ -1,10 +1,10 @@
-package com.example.client;
+package com.example.libraryfeignclient;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ClientApplicationTests {
+class LibraryFeignClientApplicationTests {
 
     @Test
     void contextLoads() {

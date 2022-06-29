@@ -1,4 +1,4 @@
-package com.example.client.resource;
+package com.example.libraryfeignclient.resource;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
